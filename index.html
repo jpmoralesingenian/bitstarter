@@ -27,23 +27,23 @@
 				}
 			}
 			
-			/* Landacape phones and down */
+			/* Landscape phones and down */
 			@media (max-width: 480px) {
 				.copy {
 					padding: 2.5% 10%;
 				}
-				.linediv-r {
-					border-top: 1px white solid;
-				}
 				.linediv-l {
 					border-bottom: 1px white solid;
+				}
+				.linediv-r {
+					border-top: 1px white solid;
 				}
 			}
 			
 			/* All form factors */
 
 			/* Main body and headings */
-			body {
+			body{
 				font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 			}
 			.heading, .subheading {
@@ -71,7 +71,7 @@
 				background-color: #343434;
 				padding: 3% 0%;
 			}
-			.video, .thermometer, .order, .social,.statistics {
+			.video, .thermometer, .order, .social, .statistics {
       			text-align: center;
       		}
 			.statistics h3, .statistics p {
@@ -79,24 +79,24 @@
 			}
 
 			/* Marketing Copy and Footer */
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      .copy {
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+        text-align: justify;
+      }
+      .asset {
+        padding: 2.5% 0%;
+      }
+      .footer {
+        color: #cccccc;
+        text-align: center;
+      }
+      .footer p {
+        font-size: 11px;
+      }
+      .footer a {
+        color: #ccccff;
+      }
 		</style>
     </head>
   	<body>
@@ -127,7 +127,7 @@
 		<!-- We now use row-fluid inside containers to achieve a resizable layout. -->
 		<!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ -->
 		<!-- http://stackoverflow.com/a/12270322 -->
-		<div class-"container">
+		<div class="container">
 			<!-- Font and paired font of .heading/ .subheading and body from Google fonts -->
 			<!-- www.google.com/fonts/specimen/Ubuntu -->
 			<!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
@@ -239,7 +239,6 @@
 					<img class="img-polaroid" src="http://placehold.it/480x300">
 				</div>
 			</div>
-		</div>
 		<!-- Fro the FAQ, we introduce a bit of JS, using the accordion. -->
 		<!-- This bring in jquery.js and bottstrap.js as dependencies. -->
 		<!-- http://twitter.github.io/bottstrap/javascript.html#collapse -->
